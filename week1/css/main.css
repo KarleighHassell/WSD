@@ -2,3 +2,101 @@ body{
 	width:800px;
 	margin:0 auto;
 }
+
+h1, h2{
+	margin:0;
+}
+
+p{
+	margin:0;
+}
+
+/*------------------------------------------Navigation----------------------------------*/
+
+nav ul{
+	Width:300px;
+	background:blue;
+	list-style-type:none;
+	padding:0;
+	overflow:hidden;
+}
+
+nav ul li{
+	Width:100px;
+	background:purple;
+	float:left;
+}
+
+nav ul li a{
+	text-decoration:none;
+	background:gray;
+	display:block;
+	height:41px;
+	line-height:41px;
+	text-align:center;
+	color:black;
+}
+
+nav ul li a:hover{
+	color:white;
+	background:red;
+}
+
+/*------------------------------------------Main Content----------------------------------*/
+
+header h1{ 
+	font-family: 'Metal Mania', cursive;
+	font-weight: 500; 
+	background:gray;
+	width:500px;
+	float:left;
+}
+
+h1, h2{
+	font-family:
+}
+
+p{
+	font-family:'helvetica neue', helvetica, arial;
+}
+
+footer{
+	text-align:center;
+	background:gray;
+}
+
+#images{
+	background:red;
+}
+
+#facts{
+	width:490px;
+	background:gray;
+}
+
+#images ul{
+	list-style-type:none;
+	border:1px dashed white;
+	width:900px;
+	margin:20px;
+	overflow:hidden;
+	padding:5px;
+	
+}
+
+#images ul li{
+	float:left;
+}
+
+#about{
+	background:silver;
+}
+
+div{
+	-moz-column-count:3;
+}
+
+#jason-voorhees{
+	background:blue;
+}
+
