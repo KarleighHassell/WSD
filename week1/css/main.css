@@ -46,15 +46,12 @@ nav ul li a:hover{
 /*------------------------------------------Main Content----------------------------------*/
 
 header h1{ 
-	font-family: 'Metal Mania', cursive;
-	font-weight: 500; 
+	font-family:'Metal Mania', cursive;
+	font-weight:500; 
 	background:gray;
 	width:500px;
 	float:left;
-}
-
-h1, h2{
-	font-family:
+	padding-left:5px;
 }
 
 p{
@@ -66,13 +63,19 @@ footer{
 	background:gray;
 }
 
-#images{
-	background:
-}
-
 #facts{
 	width:490px;
-	background:gray;
+	background-color:gray;
+}
+
+div{
+	-moz-column-count:3;
+}
+
+/*------------------------------------------Image Content----------------------------------*/
+
+#images{
+	background-color:red;
 }
 
 #images ul{
@@ -88,16 +91,3 @@ footer{
 #images ul li{
 	float:left;
 }
-
-#about{
-	background:
-}
-
-div{
-	-moz-column-count:3;
-}
-
-#jason-voorhees{
-	background:
-}
-
