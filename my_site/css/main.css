@@ -1,0 +1,161 @@
+body{
+	background:#abecf0;
+	width:900px;
+	margin:0 auto;
+}
+
+h1, h2{
+	margin:0;
+}
+
+p{
+	margin:0;
+}
+
+ul, ol{
+	margin:0;
+}
+
+/*---------------------------------------------Navigation------------------------------------------*/
+nav ul{
+	width:300px;
+	margin:0;
+	background:gray;
+	list-style-type:none;
+	padding:0;
+	overflow:hidden;
+}
+
+nav li{
+	width:100px;
+	background:#abecf0;
+	float:left;
+}
+
+nav a{
+	text-decoration:none;
+	background:#ddd3a5;
+	display:block;
+	height:38px;
+	line-height:38px;
+	text-align:center;
+	color:#abecf0;
+}
+
+nav a:hover{
+	background:#abecf0;
+	color:#ddd3a5;
+}
+
+header h1{
+	background:#ddd3a5;
+	width:600px;
+	float:left;
+}
+
+/*---------------------------------------------Images------------------------------------------*/
+#images{
+	background:rgba(221,211,165,0.7);
+	width:700px;
+	float:left;
+}
+
+#images ul{
+	border:1px #fff;
+	list-style-type:none;
+	width:650px;
+	margin:10px;
+	overflow:hidden;
+	padding:5px;
+}
+
+#images li{
+	float:left;
+	margin-left:10px;
+}
+
+#images a{
+	border:1px solid white;
+	display:block;
+	outline:0;
+	width:150px;
+	height:201px;
+}
+
+#images a:visited{
+	border-color:#abecf0;
+}
+
+#images a:hover{
+	border-color:gray;
+}
+
+#images a:active{
+	border-color:orange;
+}
+
+/*---------------------------------------------Section Liam------------------------------------------*/
+
+#liam{
+	clear:left;
+	width:600px;
+	float:right;
+	padding:30px;
+	padding-left:270px;
+	background-image:url(../images/background.jpg);
+	background-repeat: repeat-x;
+	background-color:#0d96aa;
+}
+
+#liam h1{
+	text-shadow:2px 2px 2px #c6c2b0;
+	font-family: 'The Girl Next Door', cursive;
+}
+
+#liam p{
+	margin-top:10px;
+	text-indent:20px;
+}
+
+button{
+	width:200px;
+	height:50px;
+	background: -moz-linear-gradient(top,  #c6c2b0, #c5b35f);
+	border-radius:10px;
+	margin-top:30px;
+	margin-left:400px;
+}
+
+/*---------------------------------------------Facts------------------------------------------*/
+#facts{
+	background:#ddd3a5;
+	width:200px;
+	float:left;
+}
+
+#facts ol {
+	padding-top:15px;
+	padding-bottom:64px;
+}
+
+/*---------------------------------------------About------------------------------------------*/
+#about{
+	clear:left;
+}
+
+div{
+	-moz-column-count:3;
+	-moz-column-gap:25px;
+}
+
+div p{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:18px;
+	line-height:25px;
+}
+
+/*---------------------------------------------Footer------------------------------------------*/
+footer{
+	background:#ddd3a5;
+	text-align:center;
+}
