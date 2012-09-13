@@ -1,6 +1,6 @@
 body{
 	background:#abecf0;
-	width:900px;
+	width:93.75%; /*900px;*/
 	margin:0 auto;
 }
 
@@ -18,7 +18,7 @@ ul, ol{
 
 /*---------------------------------------------Navigation------------------------------------------*/
 nav ul{
-	width:300px;
+	width:33.333333%; /*300px;*/
 	margin:0;
 	background:gray;
 	list-style-type:none;
@@ -27,7 +27,7 @@ nav ul{
 }
 
 nav li{
-	width:100px;
+	width:33.333333%; /*100px;*/
 	background:#abecf0;
 	float:left;
 }
@@ -49,36 +49,36 @@ nav a:hover{
 
 header h1{
 	background:#ddd3a5;
-	width:600px;
+	width:66.666667%; /*600px;*/
 	float:left;
 }
 
 /*---------------------------------------------Images------------------------------------------*/
 #images{
 	background:rgba(221,211,165,0.7);
-	width:700px;
+	width:77.777778%; /*700px;*/
 	float:left;
 }
 
 #images ul{
 	border:1px #fff;
 	list-style-type:none;
-	width:650px;
-	margin:10px;
+	width:92.857143%; /*650px;*/
+	margin:1.4285714%; /*10px;*/
 	overflow:hidden;
-	padding:5px;
+	padding:0.76923077%; /*5px;*/
 }
 
 #images li{
 	float:left;
-	margin-left:10px;
+	margin-left:1.5384615%; /*10px;*/
 }
 
 #images a{
 	border:1px solid white;
 	display:block;
 	outline:0;
-	width:150px;
+	width:21.428571%; /*150px;*/
 	height:201px;
 }
 
@@ -98,10 +98,10 @@ header h1{
 
 #liam{
 	clear:left;
-	width:600px;
+	width:66.666667%; /*600px;*/
 	float:right;
-	padding:30px;
-	padding-left:270px;
+	padding:5%; /*30px;*/
+	padding-left:28.5%; /*255px;*/
 	background-image:url(../images/background.jpg);
 	background-repeat: repeat-x;
 	background-color:#0d96aa;
@@ -113,23 +113,23 @@ header h1{
 }
 
 #liam p{
-	margin-top:10px;
+	margin-top:1.6666667%; /*10px;*/
 	text-indent:20px;
 }
 
 button{
-	width:200px;
+	width:33.333333%; /*200px;*/
 	height:50px;
 	background: -moz-linear-gradient(top,  #c6c2b0, #c5b35f);
 	border-radius:10px;
 	margin-top:30px;
-	margin-left:400px;
+	margin-left:66.666667%; /*400px;*/
 }
 
 /*---------------------------------------------Facts------------------------------------------*/
 #facts{
 	background:#ddd3a5;
-	width:200px;
+	width:22.222222%; /*200px;*/
 	float:left;
 }
 
