@@ -164,15 +164,21 @@ footer{
 
 /*------------------Tablet Portrait size to 960(device and browsers)---------------*/
 @media screen and (min-width:768px)and(max-width:899px){
-
+	body{
+		background:green;
+	}
 }
 
 /*-----------------------Mobile Landscape size to Tablet Portrait--------------------*/
 @media screen and (min-width:480px)and(max-width:767px){
-
+	body{
+		background:purple;
+	}
 }
 
 /*--------------------Mobile Portrait size to Mobile Landscape size----------------*/
 @media screen and (max-width:479px){
-
+	body{
+		background:orange;
+	}
 }
