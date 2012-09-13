@@ -78,7 +78,7 @@ header h1{
 	border:1px solid white;
 	display:block;
 	outline:0;
-	width:21.428571%; /*150px;*/
+	width:150px;
 	height:201px;
 }
 
@@ -163,14 +163,14 @@ footer{
 /*----------------------------------------Media Queries-------------------------------------*/
 
 /*------------------Tablet Portrait size to 960(device and browsers)---------------*/
-@media screen and (min-width:768px)and(max-width:899px){
+@media screen and (min-width:768px) and (max-width:899px){
 	body{
 		background:green;
 	}
 }
 
 /*-----------------------Mobile Landscape size to Tablet Portrait--------------------*/
-@media screen and (min-width:480px)and(max-width:767px){
+@media screen and (min-width:480px) and (max-width:767px){
 	body{
 		background:purple;
 	}
