@@ -94,6 +94,10 @@ header h1{
 	border-color:orange;
 }
 
+img{
+	max-width:100%;
+}
+
 /*---------------------------------------------Section Liam------------------------------------------*/
 
 #liam{
@@ -163,16 +167,32 @@ footer{
 /*----------------------------------------Media Queries-------------------------------------*/
 
 /*------------------Tablet Portrait size to 960(device and browsers)---------------*/
-@media screen and (min-width:768px) and (max-width:899px){
+@media screen and (min-width:768px) and (max-width:969px){
 	body{
 		background:green;
 	}
+	
+	
 }
 
 /*-----------------------Mobile Landscape size to Tablet Portrait--------------------*/
 @media screen and (min-width:480px) and (max-width:767px){
 	body{
 		background:purple;
+	}
+	
+	div{
+		-moz-column-count:2;
+	}
+	
+	#images{
+		float:none;
+		width:705px;
+	}
+	
+	#facts{
+		float:none;
+		width:705px;
 	}
 }
 
@@ -181,4 +201,39 @@ footer{
 	body{
 		background:orange;
 	}
+	
+	div{
+		-moz-column-count:1;
+	}
+	
+	#liam{
+		float:none;
+		width:435px;
+		padding:0;
+	}
+	
+	#images{
+		float:none;
+		width:435px;
+	}
+	
+	#facts{
+		float:none;
+		width:435px;
+	}
+	
+	header h1{
+		float:none;
+		width:435px;
+	}
+	
+	nav ul{
+		width:435px;
+	}
+	
+	button{
+		width:300px;
+		margin-left:0;
+	}
+
 }
