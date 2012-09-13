@@ -159,3 +159,20 @@ footer{
 	background:#ddd3a5;
 	text-align:center;
 }
+
+/*----------------------------------------Media Queries-------------------------------------*/
+
+/*------------------Tablet Portrait size to 960(device and browsers)---------------*/
+@media screen and (min-width:768px)and(max-width:899px){
+
+}
+
+/*-----------------------Mobile Landscape size to Tablet Portrait--------------------*/
+@media screen and (min-width:480px)and(max-width:767px){
+
+}
+
+/*--------------------Mobile Portrait size to Mobile Landscape size----------------*/
+@media screen and (max-width:479px){
+
+}
