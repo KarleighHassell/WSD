@@ -172,7 +172,13 @@ footer{
 		background:green;
 	}
 	
+	#images{
+		width:700px;
+	}
 	
+	#facts{
+		width:194px;
+	}
 }
 
 /*-----------------------Mobile Landscape size to Tablet Portrait--------------------*/
