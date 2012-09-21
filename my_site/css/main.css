@@ -158,10 +158,36 @@ div p{
 	line-height:25px;
 }
 
+/*---------------------------------------------Table------------------------------------------*/
+
+table{
+	background:#ddd3a5;
+	border-collapse:collapse;
+	border:1px solid #000;
+}
+
+td{
+	border:1px solid #000;
+	padding:0.3em;
+}
+
+th{
+	text-align:left;
+	background-color:#0d96aa;
+	padding:0.3em;
+}
+
+/*---------------------------------------------Form------------------------------------------*/
+
+form{
+	float:left;
+}
+
 /*---------------------------------------------Footer------------------------------------------*/
 footer{
 	background:#ddd3a5;
 	text-align:center;
+	clear:left;
 }
 
 /*----------------------------------------Media Queries-------------------------------------*/
