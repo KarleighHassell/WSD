@@ -199,11 +199,11 @@ footer{
 	}
 	
 	#images{
-		width:700px;
+		width:77.777778%; /*700px*/
 	}
 	
 	#facts{
-		width:194px;
+		width:21.555556%; /*194px*/
 	}
 }
 
@@ -219,12 +219,12 @@ footer{
 	
 	#images{
 		float:none;
-		width:705px;
+		width:78.333333%; /*705px;*/
 	}
 	
 	#facts{
 		float:none;
-		width:705px;
+		width:78.333333%; /*705px;*/
 	}
 }
 
@@ -240,31 +240,31 @@ footer{
 	
 	#liam{
 		float:none;
-		width:435px;
+		width:48.333333%; /*435px;*/
 		padding:0;
 	}
 	
 	#images{
 		float:none;
-		width:435px;
+		width:48.333333%; /*435px;*/
 	}
 	
 	#facts{
 		float:none;
-		width:435px;
+		width:48.333333%; /*435px;*/
 	}
 	
 	header h1{
 		float:none;
-		width:435px;
+		width:48.333333%; /*435px;*/
 	}
 	
 	nav ul{
-		width:435px;
+		width:48.333333%; /*435px;*/
 	}
 	
 	button{
-		width:300px;
+		width:33.333333%; /*300px;*/
 		margin-left:0;
 	}
 
